@@ -157,6 +157,14 @@ p span {
 .school h4 {
   margin: 20px 0px 0px 0px;
 }
+.school a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0px 0px 11px 0px;
+  padding: 0;
+  color: #fb6d3a;
+}
 .school h5 {
   font-weight: 700;
   color: #000000;
