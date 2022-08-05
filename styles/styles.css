@@ -25,7 +25,7 @@ body {
   margin: 0 auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   body {
     font-size: 120%;
   }
@@ -43,26 +43,21 @@ body {
     color: #ffffff;
   }
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 767px) {
   .mobiflex {
-    color: #1e2939;
+    opacity: 0;
   }
 }
 .mobiflex {
-  /* color: #1e2939; */
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
   margin-bottom: 10px;
   text-align: center;
 }
-/* .sidebar p {
-  color: #1e2939;
-} */
 .white-right {
   background-color: #fff;
   padding: 90px;
-  /* order: 2; */
 }
 .about {
   max-width: 600px;
@@ -123,7 +118,6 @@ h3 {
 .projects a:hover {
   text-decoration: none;
 }
-
 .projects {
   margin-bottom: 51px;
 }
@@ -226,14 +220,17 @@ p {
 .contact-type {
   color: #ffffff;
   font-weight: 700;
-  /* font-size: 14px; */
   line-height: 24px;
   margin: 0 8px 0 0px;
+}
+@media screen and (max-width: 767px) {
+  .contacts p {
+    margin-top: 20px;
+  }
 }
 .contact-link {
   color: #ffffff;
   font-weight: 400;
-  /* font-size: 14px; */
   line-height: 24px;
   opacity: 0.5;
   text-decoration: none;
